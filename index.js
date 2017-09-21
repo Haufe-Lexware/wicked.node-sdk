@@ -4,7 +4,7 @@ const os = require('os');
 const debug = require('debug')('wicked-sdk');
 const request = require('request');
 const qs = require('querystring');
-const uuid = require('node-uuid');
+const uuid = require('uuid');
 
 const WICKED_TIMEOUT = 2000; // request timeout for wicked API operations
 const KONG_TIMEOUT = 5000; // request timeout for kong admin API operations
